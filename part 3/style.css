@@ -12,6 +12,36 @@ body {
 
 /* Layout */
 
+div{
+  display: flex;
+}
+  section {
+    flex: 5;
+  }
+  
+  aside {
+    flex: 3;
+  }
+  
+  nav {
+    flex: 6;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+
 section {
   float: left;
   width: 50%;
