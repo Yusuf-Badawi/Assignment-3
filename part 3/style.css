@@ -71,5 +71,15 @@ header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
 }
+@font-face {
+  font-family: 'EB Garamond', serif;
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'PT Serif', serif;
+  src: url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hind+Madurai:wght@300&family=PT+Serif&display=swap');
+}
+
+body{
+    font-family: 'Hind Madurai', sans-serif;
+}
 
 /* WRITE YOUR CODE BELOW HERE */
